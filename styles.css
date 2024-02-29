@@ -32,7 +32,7 @@ textarea {
 
 input,
 extarea {
-    width: calc(100% - 200px);
+    width: calc(100% - 20px);
     resize: both;
     overflow: auto;
     max-width: calc(100% - 200px); /* 20px de largura para considerar as bordas do contêiner */
