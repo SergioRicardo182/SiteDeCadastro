@@ -32,11 +32,11 @@ textarea {
 
 input,
 extarea {
+    width: 100%;
     resize: both;
     overflow: auto;
     max-width: calc(100% - 200px); /* 20px de largura para considerar as bordas do contêiner */
     max-height: calc(100% - 200px); /* Altura máxima - ajuste conforme necessário */
-    width: calc(100% - 20px);
     padding: 80px;
     border: 1px solid #ccc;
     border-radius: 5px;
